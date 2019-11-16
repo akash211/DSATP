@@ -1,3 +1,10 @@
+# //? What it does?
+# //! A cell in memory can have 8 neighbour cell (left, left-down, down, down-right, right, right-up, up, up-left). 
+# //! We want to know maximum number of 1 present as neighbour for any cell in the array provided
+
+
+# //TODO This solves this for array zarr
+
 def getval(A, i, j, L, H):
     if (i < 0 or i >= L or j >= H):
         return 0
